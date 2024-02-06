@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(to right, #e3c30d, #d9e88e 25%, #af54ecb8);
+}
+
+html {
+  font-size: 16px;
+}
+
+.theTitle {
+  text-align: center;
+  font-family: "Rock 3D", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.125rem;
+  color: hsla(288, 100%, 50%, 1);
+  }
+
+  .topSection {
+    margin-left: 2.5%;
+    margin-right: 1.875%;
+  }
+
+  .theCocktailButtonTop {
+    float: left;
+    font-size: 7.25rem;
+    width: 26.75%;
+    text-align: center;
+    margin-top: 3.5%;
+    margin-bottom: 2.25%;
+    margin-right: 3.8%;
+    outline 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all .1s linear;
+    background: inherit;
+    border: 0.014em solid #44911b;
+    border-radius: 2.538%;
+    box-shadow: 0 0.048em 0 #266206;
+  }
+  
+  .theCocktailButtonTop:active {
+    transform: translateY(0.053em);
+    box-shadow: 0 0.038em 0 #cccf9a;
+  }
+
+  h2 {
+    float: left;
+    font-family: "Ewert", serif;
+    font-size: 2.132rem;
+    font-weight: 900;
+    font-style: normal;
+    color: #FF6723;
+    width: 9em;
+    margin-left: 0.334em;
+    padding-left: 3rem;
+  }
+  
+  img {
+    float: left;
+    height: 23%;
+    width: 23%;
+    border-radius: 10%;
+    border: 0;
+    outline: 0;
+    margin-top: 2.876%;
+    margin-left: 12%;
+  }
+
+
+  
+
+h3 {
+  padding-top: 2.354%;
+  margin-left: 2%;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  clear: both;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;  
+}
+
+@media screen and (max-width: 480px) {
+
+      body {
+        width: 25rem;
+        height: 80.774rem
+       
+      }
+
+      .topSection {
+        text-align: center;
+        width: 24.614em;
+        height: 78.255em;
+      }
+
+      .theTitle {
+        font-size: 1.652rem;
+        text-align: center;
+        margin-left: 1rem;
+      }
+
+      h2 {
+        font-size: 1.532rem;
+        margin-left: 4rem;
+      }
+
+      .theCocktailButtonTop {
+        width: 20rem;
+        font-size: 4.75rem;
+        margin-left: 3rem;
+        text-align: center;
+      }
+
+      img {
+        text-align: center;
+        margin-left: 5.532rem;
+        width: 63.325%;
+        height: 13.325%
+      }
+
+      h3 {
+        font-size: 1.323rem;
+        text-align: center;
+     
+      }
+
+  
+}
+
+
+
+
+

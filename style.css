@@ -83,50 +83,55 @@ h3 {
     "SHLN" 50;  
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 590px) {
 
-      body {
-        width: 25rem;
-        height: 80.774rem
-       
-      }
+  body {
+    width: 25rem;
+    height: 80.774rem
+   
+  }
 
-      .topSection {
-        text-align: center;
-        width: 24.614em;
-        height: 78.255em;
-      }
+  .topSection {
+    text-align: center;
+    width: 24.614em;
+    height: 78.255em;
+  }
 
-      .theTitle {
-        font-size: 1.652rem;
-        text-align: center;
-        margin-left: 1rem;
-      }
+  .theTitle {
+    font-size: 1.652rem;
+    text-align: center;
+    margin-left: 1rem;
+  }
 
-      h2 {
-        font-size: 1.532rem;
-        margin-left: 4rem;
-      }
+  h2 {
+    font-size: 1.532rem;
+    margin-left: 4rem;
+  }
 
-      .theCocktailButtonTop {
-        width: 20rem;
-        font-size: 4.75rem;
-        margin-left: 3rem;
-        text-align: center;
-      }
+  .theCocktailButtonTop {
+    width: 20rem;
+    font-size: 4.75rem;
+    margin-left: 3rem;
+    text-align: center;
+  }
 
-      img {
-        text-align: center;
-        margin-left: 5.532rem;
-        width: 63.325%;
-        height: 13.325%
-      }
+  img {
+    text-align: center;
+    margin-left: 5.532rem;
+    width: 63.325%;
+    height: 13.325%
+  }
 
-      h3 {
-        font-size: 1.323rem;
-        text-align: center;
+  h3 {
+    font-size: 1.323rem;
+    text-align: center;
+ 
+  }
+
+  
+
      
-      }
+
 
   
 }

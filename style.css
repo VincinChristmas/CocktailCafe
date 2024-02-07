@@ -89,9 +89,12 @@ h3 {
     margin-left: 0;
   }
 
+  main {
+    padding-right: 10%;
+  }
+
   .topSection {
     text-align: center;
-    margin-right: 10%;
   }
 
   .theTitle {

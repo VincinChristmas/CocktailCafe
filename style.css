@@ -98,7 +98,7 @@ h3 {
   }
 
   .theTitle {
-    font-size: 1.652rem;
+    font-size: 1.352rem;
     text-align: center;
     margin-left: 1rem;
   }
@@ -123,7 +123,9 @@ h3 {
   }
 
   h3 {
-    font-size: 1.323rem;
+    font-size: 1.623rem;
+    width: 63.322%;
+    margin-left: 20%;
     text-align: center;
  
   }

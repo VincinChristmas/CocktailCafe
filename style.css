@@ -85,11 +85,7 @@ h3 {
 
 @media only screen and (max-width: 800px) {
 
-  body {
-    width: 20rem;
-    height: 60.774rem
-   
-  }
+  
 
   .topSection {
     text-align: center;
@@ -105,7 +101,7 @@ h3 {
 
   h2 {
     font-size: 1.532rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   .theCocktailButtonTop {

@@ -1,7 +1,6 @@
-/*
-
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 *,
@@ -12,7 +11,13 @@
           box-sizing: border-box;
 }
 
+
+
 body {
+  background: #f5f3eb9b
+}
+
+.buttonSearchBody {
   background: linear-gradient(to right, #e3c30d, #d9e88e 25%, #af54ecb8);
 }
 
@@ -20,82 +25,120 @@ html {
   font-size: 16px;
 }
 
+/************COMPONENTS *************
+*                                   *
+*                                   *
+*************************************/
+
 .theTitle {
+  margin-top: 0;
   text-align: center;
   font-family: "Rock 3D", system-ui;
   font-weight: 900;
   font-style: normal;
   font-size: 3.125rem;
   color: hsla(288, 100%, 50%, 1);
-  }
+}
 
-  .topSection {
-    margin-left: 2.5%;
-    margin-right: 1.875%;
-  }
-
-  .theCocktailButtonTop {
-    float: left;
-    font-size: 7.25rem;
-    width: 26.75%;
-    text-align: center;
-    margin-top: 3.5%;
-    margin-bottom: 2.25%;
-    margin-right: 3.8%;
-    outline 0;
-    padding: 0;
-    cursor: pointer;
-    transition: all .1s linear;
-    background: inherit;
-    border: 0.014em solid #44911b;
-    border-radius: 2.538%;
-    box-shadow: 0 0.048em 0 #266206;
-  }
+.homeButton {
+  display: block;
+  width: 33%;
+  height: 36%rem;
+  margin: 0 auto;
+  outline: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+  cursor: url('/images/cursorcocktail.png'), pointer;
+  transition: all .1s linear;
+  border: 0.124em solid #e4d3ed;
+  border-radius: 2.538%;
+  box-shadow: 0 0.248em 0 #700db3;
   
-  .theCocktailButtonTop:active {
-    transform: translateY(0.053em);
-    box-shadow: 0 0.038em 0 #cccf9a;
-  }
+}
 
-  h2 {
-    float: left;
-    font-family: "Ewert", serif;
-    font-size: 2.132rem;
-    font-weight: 900;
-    font-style: normal;
-    color: #FF6723;
-    width: 9em;
-    margin-left: 0.334em;
-    padding-left: 3rem;
-  }
-  
-  img {
-    float: left;
-    height: 23%;
-    width: 23%;
-    border-radius: 10%;
-    border: 0;
-    outline: 0;
-    margin-top: 2.876%;
-    margin-left: 12%;
-  }
+.homeButton:active {
+  transform: translateY(0.153em);
+  box-shadow: 0 0.138em 0 ;
+}
 
 
-  
+.girl4 {
+  float: left;
+  padding-top: 5rem;
+  width: 100%;
+  max-width: 100%;
+  background-color: inherit;
+}
+
+
+.topSection {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.theCocktailButtonTop {
+  float: left;
+  font-size: 7.25rem;
+  width: 26.75%;
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 2.25rem;
+  margin-right: 3.8rem;
+  outline 0;
+  padding: 0;
+  cursor: pointer;
+  transition: all .1s linear;
+  background: inherit;
+  border: 0.014em solid #44911b;
+  border-radius: 2.538%;
+  box-shadow: 0 0.048em 0 #266206;
+}
+
+.theCocktailButtonTop:active {
+  transform: translateY(0.053em);
+  box-shadow: 0 0.038em 0 #cccf9a;
+}
+
+h2 {
+  float: left;
+  font-family: "Ewert", serif;
+  font-size: 2.132em;
+  font-weight: 900;
+  font-style: normal;
+  color: #FF6723;
+  width: 9em;
+  margin-left: 0.334rem;
+  padding-left: 3rem;
+}
+
+img {
+  float: left;
+  height: 23%;
+  width: 23%;
+  border-radius: 10%;
+  border: 0;
+  outline: 0;
+  margin-top: 2.876%;
+  margin-left: 12%;
+}
+
+
+
 
 h3 {
-  padding-top: 2.354%;
-  margin-left: 2%;
-  font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: 2rem;
-  font-style: normal;
-  clear: both;
-  font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;  
+padding-top: 2.354rem;
+margin-left: 2rem;
+font-family: "Honk", system-ui;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 2em;
+font-style: normal;
+clear: both;
+font-variation-settings:
+  "MORF" 15,
+  "SHLN" 50;  
 }
+
 
 @media only screen and (max-width: 800px) {
 
@@ -143,9 +186,13 @@ h3 {
     text-align: center;
  
   }
+  
 }
 
-*/
+
+
+
+
 
 
 

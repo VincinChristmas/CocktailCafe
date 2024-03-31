@@ -62,8 +62,7 @@ html {
 }
 
 
-.girl4 {
-  float: left;
+.girl3 {
   padding-top: 5rem;
   width: 100%;
   max-width: 100%;
@@ -111,7 +110,7 @@ h2 {
   padding-left: 3rem;
 }
 
-img {
+.popupDrink {
   float: left;
   height: 23%;
   width: 23%;
@@ -172,7 +171,7 @@ font-variation-settings:
     text-align: center;
   }
 
-  img {
+  .popupDrink {
     text-align: center;
     margin-left: 5.532rem;
     width: 63.325%;

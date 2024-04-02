@@ -108,6 +108,8 @@ html {
   margin-right: 2rem;
 }
 
+
+
 .theCocktailButtonTop {
   float: left;
   font-size: 7.25rem;
@@ -167,6 +169,45 @@ clear: both;
 font-variation-settings:
   "MORF" 15,
   "SHLN" 50;  
+}
+
+/************THE CHOOSE OPTIONS PAGE *************/
+
+.choose {
+  text-align: center;
+  font-family: "Rock 3D", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3em;
+  color: rgb(19, 19, 19);
+}
+
+.allthedoors {
+  text-align: center;
+}
+
+.push {
+  display: inline-block;
+  color: #B87333;
+}
+
+.leftdoor1 {
+  background: #B87333;
+  margin-right: 30px;
+  height: 3rem;
+  width: 20%;
+}
+
+.rightdoor1 {
+  background: #B87333;
+  height: 3rem;
+  width: 20%;
+}
+
+
+
+.carousel {
+  display: inline-block;
 }
 
 /*

@@ -113,7 +113,7 @@ html {
 
 
 
-.theCocktailButtonTop {
+.theCocktailButtonTop, .theCocktailButtonRotation {
   float: left;
   font-size: 7.25rem;
   width: 26.75%;
@@ -131,7 +131,7 @@ html {
   box-shadow: 0 0.048em 0 #266206;
 }
 
-.theCocktailButtonTop:active {
+.theCocktailButtonRotation:active, .theCocktailButtonTop:active {
   transform: translateY(0.053em);
   box-shadow: 0 0.038em 0 #cccf9a;
 }

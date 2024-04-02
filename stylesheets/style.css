@@ -118,7 +118,7 @@ html {
   font-size: 7.25rem;
   width: 26.75%;
   text-align: center;
-  margin-top: 3.5rem;
+  margin-top: 5.5rem;
   margin-bottom: 2.25rem;
   margin-right: 3.8rem;
   outline 0;
@@ -148,6 +148,8 @@ html {
 }
 
 .clickName {
+  margin-top: 1.843rem;
+  margin-bottom: 1.843rem; 
   float: left;
   font-family: "Ewert", serif;
   font-size: 2.132em;
@@ -177,6 +179,8 @@ font-variation-settings:
 /************THE CHOOSE OPTIONS PAGE *************/
 
 .choose {
+  margin-top: 1.543rem;
+  margin-bottom: 1.543rem;
   text-align: center;
   font-family: "Rock 3D", system-ui;
   font-weight: 900;
@@ -204,6 +208,7 @@ font-variation-settings:
 
 .wrapper {
   margin: 0 auto;
+  margin-top: 1.343rem;
   height:18.75rem;
   width: 15.625rem;
   border: 5px solid #61412D;

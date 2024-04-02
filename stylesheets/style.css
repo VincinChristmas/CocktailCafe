@@ -30,6 +30,9 @@ html {
 *                                   *
 *************************************/
 
+
+/************THE HOME PAGE *************/
+
 .theTitle {
   margin-top: 0;
   text-align: center;
@@ -38,6 +41,13 @@ html {
   font-style: normal;
   font-size: 3.125rem;
   color: hsla(288, 100%, 50%, 1);
+}
+
+.girl3 {
+  padding-top: 5rem;
+  width: 100%;
+  max-width: 100%;
+  background-color: inherit;
 }
 
 .homeButton {
@@ -58,16 +68,39 @@ html {
 
 .homeButton:active {
   transform: translateY(0.153em);
-  box-shadow: 0 0.138em 0 ;
+  box-shadow: 0 0.138em 0 #700db3;
+}
+
+.thehomeButton, .start {
+  text-decoration: none;
+}
+
+/************THE CLICK PAGE*************/
+
+.thetitleLead {
+  font-family: "Rock 3D", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.125rem;
+  color: hsla(288, 100%, 50%, 1);
+  margin: 0 auto;
+  margin-top: 1.543rem;
+  width: 63%;
+  outline: 0;
+  padding: 0.2em;
+  cursor: url('/images/cursorcocktail.png'), pointer;
+  transition: all .1s linear;
+  border: 0.024em solid #8f789b;
+  border-radius: 2.538%;
+  box-shadow: 0 0.068em 0 #a250d9;
+}
+
+.thetitleLead:active {
+  transform: translateY(0.153em);
+  box-shadow: 0 0.138em 0 #b0f077;
 }
 
 
-.girl3 {
-  padding-top: 5rem;
-  width: 100%;
-  max-width: 100%;
-  background-color: inherit;
-}
 
 
 .topSection {
@@ -98,18 +131,6 @@ html {
   box-shadow: 0 0.038em 0 #cccf9a;
 }
 
-h2 {
-  float: left;
-  font-family: "Ewert", serif;
-  font-size: 2.132em;
-  font-weight: 900;
-  font-style: normal;
-  color: #FF6723;
-  width: 9em;
-  margin-left: 0.334rem;
-  padding-left: 3rem;
-}
-
 .popupDrink {
   float: left;
   height: 23%;
@@ -121,10 +142,20 @@ h2 {
   margin-left: 12%;
 }
 
+.clickName {
+  float: left;
+  font-family: "Ewert", serif;
+  font-size: 2.132em;
+  font-weight: 900;
+  font-style: normal;
+  color: #FF6723;
+  width: 9em;
+  margin-left: 0.334rem;
+  padding-left: 3rem;
+}
 
 
-
-h3 {
+.instructions {
 padding-top: 2.354rem;
 margin-left: 2rem;
 font-family: "Honk", system-ui;
@@ -138,7 +169,7 @@ font-variation-settings:
   "SHLN" 50;  
 }
 
-
+/*
 @media only screen and (max-width: 800px) {
 
   body {
@@ -187,6 +218,8 @@ font-variation-settings:
   }
   
 }
+
+*/
 
 
 

@@ -1,4 +1,4 @@
-document.querySelector('.buttonUp').addEventListener('click', setInterval(getDrink, 6000)) 
+document.querySelector('.theCocktailButtonRotation').addEventListener('click', setInterval(getDrink, 6000)) 
 
 function getDrink() {
 fetch('https:www.thecocktaildb.com/api/json/v1/1/random.php')

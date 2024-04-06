@@ -312,6 +312,16 @@ font-variation-settings:
   object-fit: cover;
 }
 
+.clickmethird {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.option3 > h3 {
+  color: yellowgreen;
+}
+
 .searchResults {
   text-align: center;
   
@@ -389,5 +399,13 @@ font-style: normal;
 font-variation-settings:
   "MORF" 15,
   "SHLN" 50;  
+}
+
+@media screen and (max-width: 600px) {
+  .option1, .option2, .option3 {
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
 }
 

@@ -193,8 +193,9 @@ font-variation-settings:
 .option1 {
   float: left;
   clear: both;
-  width: 50%;
+  width: 33.33%;
   text-align: center;
+  margin-right: 0;
 }
 
 .push {
@@ -282,7 +283,15 @@ font-variation-settings:
 
 .option2 {
   float: left;
-  width: 50%;
+  width: 33.33%;
+  text-align: center;
+  margin-left: 0;
+}
+
+
+.option3 {
+  float: left;
+  width: 33.33%;
   text-align: center;
 
 }
@@ -381,3 +390,4 @@ font-variation-settings:
   "MORF" 15,
   "SHLN" 50;  
 }
+

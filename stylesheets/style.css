@@ -193,7 +193,7 @@ font-variation-settings:
 .option1 {
   float: left;
   clear: both;
-  width: 33.33%;
+  width: 33%;
   text-align: center;
   margin-right: 0;
 }
@@ -283,7 +283,7 @@ font-variation-settings:
 
 .option2 {
   float: left;
-  width: 33.33%;
+  width: 33%;
   text-align: center;
   margin-left: 0;
 }
@@ -291,7 +291,7 @@ font-variation-settings:
 
 .option3 {
   float: left;
-  width: 33.33%;
+  width: 33%;
   text-align: center;
 
 }

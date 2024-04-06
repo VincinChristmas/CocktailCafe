@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', getDrink) 
+document.querySelector('.getCocktail').addEventListener('click', getDrink) 
 
 
 

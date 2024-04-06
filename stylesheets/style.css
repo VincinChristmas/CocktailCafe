@@ -303,62 +303,81 @@ font-variation-settings:
   object-fit: cover;
 }
 
-/*
-@media only screen and (max-width: 800px) {
-
-  body {
-    margin-left: 0;
-  }
-
-  main {
-    padding-right: 10%;
-  }
-
-  .topSection {
-    text-align: center;
-  }
-
-  .theTitle {
-    font-size: 1.352rem;
-    text-align: center;
-    margin-left: 1rem;
-  }
-
-  h2 {
-    font-size: 1.532rem;
-    margin-left: 2.535rem;
-  }
-
-  .theCocktailButtonTop {
-    width: 20rem;
-    font-size: 4.75rem;
-    margin-left: 2.635rem;
-    text-align: center;
-  }
-
-  .popupDrink {
-    text-align: center;
-    margin-left: 5.532rem;
-    width: 63.325%;
-    height: 13.325%
-  }
-
-  h3 {
-    font-size: 1.623rem;
-    width: 63.322%;
-    margin-left: 24.333%;
-    text-align: center;
- 
-  }
+.searchResults {
+  text-align: center;
   
 }
 
-*/
+.searchResults > h1 {
+  font-size: 2.653em;
+  font-family: "Rock 3D", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
 
 
 
+.searchResults > input[type=text] {
+  border: none;
+  border-radius: 4px;
+  padding: 0.123rem;
+  box-sizing: border-box;
+  margin-right: 0.748rem;
+  margin-bottom: 0.748rem;
+  outline: none;
+}
 
+.searchResults > input[type=text]:focus {
+  border: 2px solid #e71ed7;
+}
 
+.getCocktail {
+  font-family: "Rock 3D", system-ui;
+  background: inherit;
+  padding: 0.21rem;
+  font-weight: 700;
+  color: rgb(255, 255, 0);
+  outline 0;
+  cursor: pointer;
+  transition: all .1s linear;
+  background: inherit;
+  border: 0.014em solid #44911b;
+  border-radius: 2.538%;
+  box-shadow: 0 0.148em 0 #266206;
+}
 
+.getCocktail:active {
+  transform: translateY(0.053em);
+  box-shadow: 0 0.038em 0 #cccf9a;
+}
 
+.searchResults > h2 {
+  margin-top: 0.683rem;
+  margin-bottom: 0.7rem;
+  font-family: "Ewert", serif;
+  font-size: 2.132em;
+  font-weight: 900;
+  font-style: normal;
+  color: #FF6723
+}
 
+.searchResults > img {
+  height: 23%;
+  width: 23%;
+  border-radius: 10%;
+  border: 0;
+  outline: 0;
+}
+
+.searchResults > h3 {
+margin-top: 0.7rem;
+margin-bottom: 0.435rem;
+font-family: "Honk", system-ui;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 2em;
+font-style: normal;
+font-variation-settings:
+  "MORF" 15,
+  "SHLN" 50;  
+}

@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
   max-width: 100%;
   margin: 0;
@@ -61,7 +61,7 @@ html {
   outline: 0;
   padding: 0;
   background-color: #F6F6F6;
-  cursor: url('/images/cursorcocktail.png'), pointer;
+  cursor: url('cursorcocktail'), pointer;
   transition: all .1s linear;
   border: 0.124em solid #e4d3ed;
   border-radius: 2.538%;

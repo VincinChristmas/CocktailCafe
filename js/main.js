@@ -15,7 +15,7 @@ fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
     document.querySelector('h3').innerText = data.drinks[0].strInstructions
 }) 
 .catch(err => {
-    console.log('error ${err}')
+    console.log(`error ${err}`)
 })
 }
 
